@@ -16,3 +16,8 @@ View build log at '/var/log/guix/drvs/3f/mrgvx8aajw7vys3h8ng5fk42ch5878-libgpg-e
 
 Generally these errors are not actually packages changed in place,
 but missing packages or broken mirrors.
+
+If you run into a missing package, you can do:
+```bash
+guix download https://github.com/fanquake/guix_missing/raw/refs/heads/main/the_missing_file.some.extension
+```
