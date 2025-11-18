@@ -19,5 +19,5 @@ but missing packages or broken mirrors.
 
 If you run into a missing package, you can do:
 ```bash
-guix download https://github.com/fanquake/guix_missing/raw/refs/heads/main/the_missing_file.some.extension
+guix download https://github.com/fanquake/guix_missing/raw/refs/heads/main/gnutls-3.7.2.tar.xz
 ```
